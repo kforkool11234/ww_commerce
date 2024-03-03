@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body {
+    background: #eee;
+    padding: 0 16px;
+  }
+header{
+  display: flex;
+    background: rgb(251,82,216);
+background: linear-gradient(119deg, rgba(251,82,216,1) 16%, rgba(39,86,186,1) 52%, rgba(255,0,129,1) 79%);
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    font-family: "Quicksand", sans-serif;
+    font-size: 22px;
+}
+header h1 img{
+    margin-bottom: -10px;
+}
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  .Search{
+    display: flex;
+    align-items: center;
+    cursor: 'pointer';
+    margin-right: 50px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: self-start;
+  }
+  .card {
+    flex: 1 0 21%; /* grow, shrink, basis */
+    margin: 1%;
+    box-sizing: border-box;
+    
+  }
+  /* Apply styles to input fields */
+input {
+  padding: 10px; /* Add some padding for inner spacing */
+  margin: 10px; /* Create a margin around the input */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Round the corners */
+  width: 100%; /* Set the width to 100% */
+  font-family: inherit; /* Inherit font family from parent */
+  font-size: 50%; /* Ensure consistent font size */
+  align-items: center;
+}
