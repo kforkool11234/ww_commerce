@@ -1,3 +1,5 @@
+#problems
+can get data for any product in Flipkart as there class name keeps changing and can't find alternative of web scrapping to get data
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
